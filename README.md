@@ -2,7 +2,7 @@
 This is a post-processing for oscillatory shear index written based on foam-extend-4.1.
 
 ## Math equation
-$$ OSI = \left({ 1 - {\int_0^T WSS \ dt} \over {\int_0^T \mid WSS \mid \ dt}}     \right) $$
+$$ OSI = \left(1- {{\int_0^T WSS \ dt} \over {\int_0^T \mid WSS \mid \ dt}}     \right) $$
 
 Which $\tau_w$, $\mu$, $U$, and $n$ are wall shear stress, dynamic viscosity, velocity vector, and perpendicular vector, respectively.
 
